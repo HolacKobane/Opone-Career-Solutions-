@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opone Career Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Opone Career Solutions</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-blue-500">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-500">About Us</a></li>
+                <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-blue-500 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Opone Career Solutions</h1>
+            <p class="text-lg mb-8">Connecting you with the best talents.</p>
+            <a href="#contact" class="bg-white text-blue-500 px-4 py-2 rounded">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-lg mb-8">We are dedicated to providing the best staffing solutions.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Our Mission</h3>
+                    <p>To connect businesses with the best talent available.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Our Team</h3>
+                    <p>Professional and experienced recruiters.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Our Values</h3>
+                    <p>Integrity, professionalism, and dedication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-200 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Temporary Staffing</h3>
+                    <p>Flexible staffing solutions for your temporary needs.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Permanent Staffing</h3>
+                    <p>Connecting you with top permanent talent.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md rounded">
+                    <h3 class="text-xl font-bold mb-2">Contract Staffing</h3>
+                    <p>Experienced professionals for short-term projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="text-lg mb-8">Reach out to us for your staffing needs.</p>
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" placeholder="Your message"></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
